@@ -1,0 +1,25 @@
+# ── Data (≈5 GB, regenerate with the pipeline scripts) ──
+Datasets/
+Cleaned-datasets/bikes_cleaned.csv
+Cleaned-datasets/bikes_cleaned.parquet
+Cleaned-datasets/weather_cleaned.csv
+Cleaned-datasets/calendar_cleaned.csv
+merged-datasets/master_dataset.parquet
+merged-datasets/features_dataset.parquet
+
+# ── Models (regenerate with 04_model_training.ipynb) ──
+Models/xgboost.pkl
+Models/random_forest.pkl
+Models/logistic_regression.pkl
+Models/scaler.pkl
+Models/shap_values.npy
+
+# ── Secrets ──
+.streamlit/secrets.toml
+.env
+
+# ── Junk ──
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
